@@ -40,3 +40,16 @@ count*=3;
 
 "two">"three" //true: "tw"在字母表中的索引大于"th"
 
+//面向对象，定义一个构造函数初始化新的Ponint对象
+function Point(x,y){   //构造函数均以大写字母开头
+	this.x=x;
+	this.y=y;
+ }
+
+var p=new Point(1,1);
+
+Point.prototype.r= function() {
+	return Math.sqrt(this.x*this.x+this.y*this.y);
+};
+
+p.r()
