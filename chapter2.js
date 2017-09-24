@@ -24,8 +24,9 @@ var now=new Date(); //当前日期和时间
 var elapsed=now-then; //日期减法：计算时间间隔的毫秒数
 later.getFullYear() //2011
 later.getMonth() //0：从0开始计数的月份
-// later.getDate()
+later.getDate()
 //1：从1开始计数的天数
 later.getDay() //5:得到星期几，0代表星期日，1代表星期一
 later.getHours() //当地时间17
 later.getUTCHours() //使用UTC表示小时的时间，基于区时
+
