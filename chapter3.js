@@ -14,3 +14,9 @@ NaN
 str.slice(首，尾) //参数允许负数
 str.substring(首，尾) //不允许负数
 str.substr(首，长) 
+
+//
+10+" objects"  //"10 objects" 10转换成字符串
+"7"*"4"   //28
+var n=1-"x";   //NaN x无法转换为字符串
+n+" objects"  //"NaN objects" NaN转换为字符串
